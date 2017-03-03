@@ -13,13 +13,6 @@ Output: NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm
 
 ## Example
 
-```js
-var rot13 = require('./index.js');
-console.log(rot13('abc')); // 'nop'
-```
-
----
-
 ```
 Why did the chicken cross the road?
 Gb trg gb gur bgure fvqr!
@@ -30,6 +23,13 @@ Transforming the entire text via ROT13 form, the answer to the joke is revealed:
 ```
 Jul qvq gur puvpxra pebff gur ebnq?
 To get to the other side!
+```
+
+## Usage
+
+```js
+var rot13 = require('./index.js');
+console.log(rot13('abc')); // 'nop'
 ```
 
 ## Tests
