@@ -13,6 +13,13 @@ Output: NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm
 
 ## Example
 
+```js
+var rot13 = require('./index.js');
+console.log(rot13('abc')); // 'nop'
+```
+
+---
+
 ```
 Why did the chicken cross the road?
 Gb trg gb gur bgure fvqr!
