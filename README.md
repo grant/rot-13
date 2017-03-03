@@ -1,12 +1,14 @@
 # rot-13
 
-| `rot-13` is a simple letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet.
-| https://en.wikipedia.org/wiki/ROT13
+> `rot-13` is a simple letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet.
+> https://en.wikipedia.org/wiki/ROT13
 
 ## Details
+Converts alpha characters to there rotated-by-13 equivalent letter. Keeps cases. Ignores other characters.
+
 ```
-Input ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
-Output  NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm
+Input:  ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+Output: NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm
 ```
 
 ## Example
